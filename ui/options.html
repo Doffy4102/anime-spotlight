@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anime Spotlight Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <h1>Custom Websites</h1>
+  <p>Add your favorite websites to the "Watch on" list.</p>
+
+  <form id="add-website-form">
+    <input type="text" id="website-name" placeholder="Website Name (e.g., Netflix)" required>
+    <input type="url" id="website-url" placeholder="Website URL (e.g., https://www.netflix.com/search?q=%s)" required>
+    <button type="submit">Add Website</button>
+  </form>
+
+  <h2>Your Websites</h2>
+  <ul id="website-list"></ul>
+
+  <script src="options.js"></script>
+</body>
+</html>
